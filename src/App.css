@@ -1,0 +1,21 @@
+*{
+  font-size: 14px;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  align-content: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding: clamp(5px, 0.62vw, 10px);
+}
+
+.bg{
+  background: rgba(80, 85, 90, 0.58);
+}
